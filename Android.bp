@@ -99,12 +99,12 @@ cc_prebuilt_library {
     check_elf_files: false,
     vendor: true,
 }
-//cc_rockchip_prebuilt_obj {
-//    name: "c11fe8ac-b997-48cf-a28de2a55e5240ef.ta",
-//    src:  "v1/ta/c11fe8ac-b997-48cf-a28de2a55e5240ef.ta",
-//    vendor: true,
-//    sub_dir: "lib/optee_armtz",
-//}
+cc_rockchip_prebuilt_obj {
+    name: "c11fe8ac-b997-48cf-a28de2a55e5240ef.ta",
+    src:  "v1/ta/c11fe8ac-b997-48cf-a28de2a55e5240ef.ta",
+    vendor: true,
+    sub_dir: "lib/optee_armtz",
+}
 
 cc_rockchip_prebuilt_obj {
     name: "c11fe8ac-b997-48cf-a28d-e2a55e5240ef.ta",
